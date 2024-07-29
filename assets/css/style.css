@@ -148,6 +148,12 @@ header {
     text-align: left;
     color: white;
 }
+.links-m{
+    flex-wrap: wrap;
+}
+.words{
+    font-size: 72px;
+}
 
 .btn {
     padding: 14px 34px 14px 34px;
@@ -253,6 +259,9 @@ font-family: "Josefin Sans", sans-serif;
     height: 2px;
     width: 63%;
     background: linear-gradient(180deg, #815CC8 0%, #1BABFE 100%);
+}
+.numbers{
+    font-size: 26px;
 }
 
 
@@ -396,5 +405,14 @@ font-family: "Josefin Sans", sans-serif;
 @media (max-width:992px) {
     .mt-50 {
         margin-top: 50px;
+    }
+}
+@media (max-width:768px) {
+    .card{
+        width: 290px;
+    }
+    .numbers{ font-size: 18px;}
+    .words{
+        font-size: 36px;
     }
 }
