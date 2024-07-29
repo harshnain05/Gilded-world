@@ -6,6 +6,7 @@
     list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
+
 }
 
 .container {
@@ -184,6 +185,7 @@ font-family: "Josefin Sans", sans-serif;
     padding: 20px 0px;
 }
 
+
 /* =================================================================================colour========================================================================================== */
 
 .color-blue {
@@ -232,7 +234,9 @@ font-family: "Josefin Sans", sans-serif;
 .size-30 {
     font-size: 30px;
 }
-
+.crsr-pointer{
+    cursor: pointer;
+}
 .size-72 {
     font-size: 72px;
 }
@@ -354,7 +358,7 @@ font-family: "Josefin Sans", sans-serif;
 
     input[type="checkbox"]:checked ~ ul {
         right: 0;
-        background-color: #25DAC5;
+        background-color: red;
     }
 
     input[type="checkbox"]:checked + label[for="menubar"] :first-child {
