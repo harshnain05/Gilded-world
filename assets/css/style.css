@@ -152,7 +152,7 @@ header {
     padding: 14px 34px 14px 34px;
     border-radius: 50px;
     border: none;
-    font-family: Josefin Sans, sans-serif;
+font-family: "Josefin Sans", sans-serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 22px;
@@ -167,7 +167,7 @@ header {
 }
 
 .about a {
-    font-family: Josefin Sans, sans-serif;
+font-family: "Josefin Sans", sans-serif;
     font-size: 22px;
     font-weight: 700;
     line-height: 22px;
